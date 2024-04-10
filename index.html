@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dinheiro</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <section>
+                <div id="moeda">
+                    <div id="moeda1" class="din">
+                        <img src="images/moeda1.png" alt="1 centavo" onclick="sumMoeda1()">
+                    </div>
+                    <div id="moeda5" class="din">
+                        <img src="images/moeda5.png" alt="5 centavos" onclick="sumMoeda5()">
+                    </div>
+                    <div id="moeda10" class="din">
+                        <img src="images/moeda10.png" alt="10 centavos" onclick="sumMoeda10()">
+                    </div>
+                    <div id="moeda25" class="din">
+                        <img src="images/moeda25.png" alt="25 centavos" onclick="sumMoeda25()">
+                    </div>
+                    <div id="moeda50" class="din">
+                        <img src="images/moeda50.png" alt="50 centavos" onclick="sumMoeda50()">
+                    </div>
+                    <div id="moeda100" class="din">
+                        <img src="images/moeda100.png" alt="1 real" onclick="sumMoeda100()">
+                    </div>
+                </div>
+                <div id="nota">
+                    <div id="nota2" class="din"> 
+                        <img src="images/nota2.png" alt="2 reais" onclick="sumNota2()">
+                    </div>
+                    <div id="nota5" class="din">
+                        <img src="images/nota5.png" alt="5 reais" onclick="sumNota5()">
+                    </div>
+                    <div id="nota10" class="din">
+                        <img src="images/nota10.png" alt="10 reais" onclick="sumNota10()">
+                    </div>
+                    <div id="nota20" class="din">
+                        <img src="images/nota20.png" alt="20 reais" onclick="sumNota20()">
+                    </div>
+                    <div id="nota50" class="din">
+                        <img src="images/nota50.png" alt="50 reais" onclick="sumNota50()">
+                    </div>
+                    <div id="nota100" class="din">
+                        <img src="images/nota100.jpg" alt="100 reais" onclick="sumNota100()">
+                    </div>
+                </div>
+            </section>
+            <main>
+                <div id="titulo">
+                    <h1>
+                        Contador Dinheiro
+                    </h1>
+                </div>
+                <div id="main_container">
+                    <div id="virgula">
+                        R$
+                    </div>
+                    <div id="centena" class="num">
+                        1
+                    </div>
+                    <div id="dezena" class="num">
+                        2
+                    </div>
+                    <div id="unidade" class="num">
+                        3
+                    </div>
+                    <div id="virgula">
+                        ,
+                    </div>
+                    <div id="decimo" class="num">
+                        4
+                    </div>
+                    <div id="centesimo" class="num">
+                        5
+                    </div>
+                </div>
+                <button id="reset" onclick="reset()">
+                    Reset
+                </button>
+            </main>
+        </div>
+
+        <script src="app/script.js"></script>
+    </body>
+</html>
